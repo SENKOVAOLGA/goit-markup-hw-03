@@ -1,21 +1,21 @@
 :root{
- --IRIS:#4D5AE5;
- --OCEAN:#404BBF;
- --NAVY-BLUE:#2E2F42;
- --GREEN:#31D0AA;
- --SLATE:#434455;
- --LIGHT-SLATE:#8E8F99;
- --CORNFLOWER:#E7E9FC;
- --CLOUD:#F4F4FD;
- --NAVY-BLUE-MODAL:#2E2F42;
- --GREY:#2E2F42;
- --WHITE:#FFFFFF; 
+ --iris:#4D5AE5;
+ --ocean:#404BBF;
+ --navy-blue:#2E2F42;
+ --green:#31D0AA;
+ --slate:#434455;
+ --light-slate:#8E8F99;
+ --cornflower:#E7E9FC;
+ --cloud:#F4F4FD;
+ --navy-blue-modal:#2E2F42;
+ --grey:#2E2F42;
+ --white:#FFFFFF; 
 }
 
 body{
-     color:var(--SLATE);
+     color:var(--slate);
      font-family: "Roboto", sans-serif;
-     background:var(--WHITE);
+     background:var(--white);
 }
 .list{
     list-style: none;
@@ -31,22 +31,22 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--IRIS);
+color: var(--iris);
 
 }
 .logo-naim{
-    color:var(--NAVY-BLUE);
+    color:var(--navy-blue);
 }
 .menu-link{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--NAVY-BLUE);
+color: var(--navy-blue);
 }
 .menu-link:hover,
 .menu-link:focus{
-    color:var(--OCEAN);
+    color:var(--ocean);
 }
 .contacts{
     font-style: normal; 
@@ -58,17 +58,17 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--SLATE);
+color: var(--slate);
 }
 .contact-link:hover,
 .contact-link:focus{
-    color:var(--OCEAN);
+    color:var(--ocean);
 }
 /* ==========/HEADER========== */
 
 /* ==========HERO========== */
 .hero{
-    background-color:var(--NAVY-BLUE);
+    background-color:var(--navy-blue);
 }
 .hero-title{
 font-weight: 700;
@@ -79,7 +79,7 @@ text-align: center;
 width: 496px;
 height: 120px;
 letter-spacing: 0.02em;
- color:var(--WHITE); 
+ color:var(--white); 
 }
 .btn{
 font-family: inherit;
@@ -88,15 +88,15 @@ font-size: 16px;
 line-height: 1.5;
 align-items: center;
 letter-spacing: 0.04em;
-color: var(--WHITE);
-background: var(--IRIS);
+color: var(--white);
+background: var(--iris);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
 }
 .btn:hover,
 .btn:focus{
-    background:var(--OCEAN);
+    background:var(--ocean);
 }
 /* ==========/HERO========== */
 /* ==========HANG========== */
@@ -105,15 +105,15 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--NAVY-BLUE);
-background-color: var(--WHITE);
+color: var(--navy-blue);
+background-color: var(--white);
 }
 .text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--SLATE);
+color: var(--slate);
 }
 /* ==========/HANG========== */
 
@@ -127,36 +127,36 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(--NAVY-BLUE);
-background-color:var(--WHITE); 
+color: var(--navy-blue);
+background-color:var(--white); 
 }
 .team-group{
-    background-color: var(--WHITE);
+    background-color: var(--white);
 }
 /* ==========/What are we doing========== */
 
 /* ==========TEAM========== */
 .team{ 
- background-color:var(--CLOUD);
+ background-color:var(--cloud);
 }
 .team-list{
-  background-color:var(--CLOUD); }
+  background-color:var(--cloud); }
 
 /* ==========/TEAM========== */
 
 /* ==========FOOTER========== */
 .footer-stile{
-background:var(--NAVY-BLUE);
+background:var(--navy-blue);
 }
 .logo-footer{
-    color:var(--CLOUD);
+    color:var(--cloud);
 }
 .text-footer{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:  var(--CLOUD);
+color:  var(--cloud);
 }
 /* ==========FOOTER========== */
 .scrolls{
@@ -166,12 +166,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color:var(--IRIS);
-background-color:var(--CLOUD);
+color:var(--iris);
+background-color:var(--cloud);
 cursor: pointer;
 }
 .scrolls:hover,
 .scrolls:focus{
-    color: var(--WHITE);
-    background-color:var(--OCEAN);
+    color: var(--white);
+    background-color:var(--ocean);
 }
