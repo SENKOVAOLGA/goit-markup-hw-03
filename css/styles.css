@@ -12,6 +12,22 @@
  --white:#FFFFFF; 
 }
 
+p, h1, h2, h3, h4{
+margin-top: 0;
+margin-bottom: 0;
+}
+ul,li{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+
+address{
+    font-style: normal;
+}
 body{
      color:var(--slate);
      font-family: "Roboto", sans-serif;
@@ -23,6 +39,13 @@ body{
 .link{
     text-decoration: none;
 }
+.container{
+     max-width: 1128px;
+     padding: 0 15px; 
+     margin: 0 auto;
+    outline: 2px solid red;
+      }
+
 /* ==========HEADER========== */
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -32,13 +55,23 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--iris);
-
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+/* padding: 0px; */
+position: absolute;
+width: 115px;
+/* padding-left: 156px; */
+padding-top: 24px;
+margin-right: 76px;
 }
 .logo-naim{
     color:var(--navy-blue);
 }
+
 .menu-link{
-font-weight: 500;
+    display: block;
+ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -175,3 +208,17 @@ cursor: pointer;
     color: var(--white);
     background-color:var(--ocean);
 }
+/* Скрываем название */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
