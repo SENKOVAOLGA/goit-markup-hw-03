@@ -176,9 +176,10 @@ cursor: pointer;
 padding: 120px 0 ;
 }
 .description-list{
-   /* width: calc((100% - 72px) / 4); */
+    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
-}
+   }
 
 .stategy{
     flex-basis:calc((100% - 72px) / 4);
@@ -207,6 +208,8 @@ color: var(--slate);
     padding-bottom: 120px; 
 }
 .list-work{
+    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 
 }
@@ -226,6 +229,8 @@ flex-basis: calc((100% - 48px) / 3);
     padding: 120px 0;
 }
 .list-people{
+    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .subject{
