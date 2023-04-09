@@ -140,6 +140,7 @@ letter-spacing: 0.02em;
  max-width: 496px;
  margin-bottom: 48px;
  /* padding-left: 472px; */
+  /* justify-content: center; */
 }
 
 .btn{
@@ -193,8 +194,21 @@ color: var(--slate);
 /* ==========/HANG========== */
 
 /* ==========What are we doing========== */
+.container-work{
+    padding-bottom: 120px; 
+}
+.list-work:not(:last-child){
+    margin-right: 24px;
+}
 
 
+
+/* ==========/What are we doing========== */
+
+/* ==========TEAM========== */
+.container-team{
+    padding: 120px 0;
+}
 .subject{
 font-weight: 700;
 font-size: 36px;
@@ -204,13 +218,11 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--navy-blue);
 background-color:var(--white); 
+margin-bottom: 72px;
+
 }
 .team-group{
-    background-color: var(--white);
-}
-/* ==========/What are we doing========== */
-
-/* ==========TEAM========== */
+    background-color: var(--white);}
 .team{ 
  background-color:var(--cloud);
 }
@@ -225,6 +237,7 @@ background:var(--navy-blue);
 }
 .logo-footer{
     color:var(--cloud);
+   
 }
 .text-footer{
 font-weight: 400;
@@ -234,6 +247,12 @@ letter-spacing: 0.02em;
 color:  var(--cloud);
 }
 /* ==========FOOTER========== */
+.container-footer{
+    padding: 100px 0 ;
+}
+.text-footer{
+    margin-top: 16px;
+}
 .scrolls{
 font-family: inherit;
  font-style: normal;
@@ -244,11 +263,18 @@ letter-spacing: 0.04em;
 color:var(--iris);
 background-color:var(--cloud);
 cursor: pointer;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+border: 1px solid var(--cornflower);
+ border-radius: 4px;
 }
 .scrolls:hover,
 .scrolls:focus{
     color: var(--white);
     background-color:var(--ocean);
+    border: 1px solid transparen;
 }
 /* Скрываем название */
 .visually-hidden {
@@ -263,4 +289,17 @@ cursor: pointer;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+/* **************PORTFOLIO ***********/
+.container-portfolio{
+    padding: 96px 0 120px;
+}
+.portfolio-list{
+    justify-content: center;
+    margin-bottom: 72px;
+    gap: 24px;
+}
+.list-portfolio{
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
