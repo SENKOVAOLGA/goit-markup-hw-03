@@ -52,7 +52,8 @@ body{
 .container-header{
   display: flex;
   align-items: center;
-  padding: 24px 0; 
+  /* padding: 24px 0;  */
+  justify-content: space-between;
 }
 .page-header{
    border-bottom: 1px solid var(--cornflower);
@@ -74,6 +75,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--iris);
+padding: 24px 0;
 }
 .logo-naim{
     color:var(--navy-blue);
@@ -81,7 +83,7 @@ color: var(--iris);
 .menu{
   display: flex;
   align-items: center;
-  margin-right: 300px;
+  /* margin-right: 300px; */
    padding: 24px 0;
 }
 .menu-item:not(:last-child){
@@ -124,7 +126,9 @@ color: var(--slate);
 
 /* ==========HERO========== */
 .container-hero{
+    display: flex;
     padding: 188px 0;
+    justify-content: center;
 }
 .hero{
     background-color:var(--navy-blue);
@@ -145,6 +149,7 @@ letter-spacing: 0.02em;
 
 .btn{
 display: block;
+ /* justify-content: center; */
 min-width: 169px;
 height: 56px;
 border: none; 
