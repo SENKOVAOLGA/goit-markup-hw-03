@@ -36,13 +36,14 @@ body{
 .list{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 .link{
     text-decoration: none;
 }
 .container{
      max-width: 1128px;
-     padding: 0; 
+     padding: 0 15px; 
      margin: 0 auto;
      outline: 2px solid red;
       }
@@ -51,25 +52,24 @@ body{
 .container-header{
     display: flex;
   align-items: center;
-  padding: 0 15px 0 15px;
-  width: 1158px;
-  padding-top: 24px; 
-   padding-bottom: 24px;
+   width: 1158px;
+ 
    
     
 }
 .page-header{
    border-bottom: 1px solid var(--cornflower);
-   
+  
     
 }
 .page-navigation{
     display: flex;
     align-items: center; 
-   
+    padding-top: 24px; 
+    padding-bottom: 24px;
 }
 .logo{
- margin-right: 76px;
+    margin-right: 76px;
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -83,6 +83,7 @@ color: var(--iris);
 }
 .menu{
   display: flex;
+  align-items: center;
   margin-right: 300px;
 }
 .menu-item:not(:last-child){
@@ -108,8 +109,8 @@ color: var(--navy-blue);
 } 
 .contact-link{
  display: flex;
- padding-top: 12px;
- padding-bottom: 12px;
+ align-items: center;
+ 
 /* font-style: normal; 
 font-weight: 400; */
 font-size: 16px;
