@@ -177,13 +177,12 @@ padding: 120px 0 ;
 }
 .description-list{
    /* width: calc((100% - 72px) / 4); */
-    justify-content: space-between;
-}
-.description-list:not(:last-child){
-    margin-right: 24px;
- 
+    gap: 24px;
 }
 
+.stategy{
+    flex-basis:calc((100% - 72px) / 4);
+}
 .subtitle{
 font-weight: 500;
 font-size: 20px;
@@ -208,13 +207,16 @@ color: var(--slate);
     padding-bottom: 120px; 
 }
 .list-work{
-    justify-content: space-between;
+    gap: 24px;
 
 }
 .list-work:not(:last-child){
     margin-right: 24px;
 }
 
+.title-work{
+flex-basis: calc((100% - 48px) / 3);
+}
 
 
 /* ==========/What are we doing========== */
@@ -224,7 +226,7 @@ color: var(--slate);
     padding: 120px 0;
 }
 .list-people{
-    justify-content: space-between;
+    gap: 24px;
 }
 .subject{
 font-weight: 700;
@@ -239,7 +241,9 @@ margin-bottom: 72px;
 
 }
 .team-group{
-    background-color: var(--white);}
+    background-color: var(--white);
+    flex-basis: calc((100% - 72px) / 4);
+}
 .team{ 
  background-color:var(--cloud);
 }
