@@ -42,7 +42,7 @@ body{
     text-decoration: none;
 }
 .container{
-     max-width: 1128px;
+     width: 1158px;
      padding: 0 15px; 
      margin: 0 auto;
      outline: 2px solid red;
@@ -52,7 +52,7 @@ body{
 .container-header{
     display: flex;
   align-items: center;
-   width: 1158px;
+    padding: 24px 0;
 
  
    
@@ -60,7 +60,7 @@ body{
 }
 .page-header{
    border-bottom: 1px solid var(--cornflower);
-  
+   padding: 24px 0;
     
 }
 .page-navigation{
