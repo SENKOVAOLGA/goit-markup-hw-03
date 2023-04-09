@@ -58,6 +58,7 @@ body{
 .page-header{
    border-bottom: 1px solid var(--cornflower);
    padding: 24px 0;
+   
     
 }
 .page-navigation{
@@ -174,9 +175,13 @@ cursor: pointer;
 .container-description{
 padding: 120px 0 ;
 }
+.description-list{
+   /* width: calc((100% - 72px) / 4); */
+    justify-content: space-between;
+}
 .description-list:not(:last-child){
     margin-right: 24px;
-    width: calc((100% - 72px) / 4);
+ 
 }
 
 .subtitle{
@@ -202,6 +207,10 @@ color: var(--slate);
 .container-work{
     padding-bottom: 120px; 
 }
+.list-work{
+    justify-content: space-between;
+
+}
 .list-work:not(:last-child){
     margin-right: 24px;
 }
@@ -213,6 +222,9 @@ color: var(--slate);
 /* ==========TEAM========== */
 .container-team{
     padding: 120px 0;
+}
+.list-people{
+    justify-content: space-between;
 }
 .subject{
 font-weight: 700;
