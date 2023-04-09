@@ -35,19 +35,36 @@ body{
 }
 .list{
     list-style: none;
+    display: flex;
 }
 .link{
     text-decoration: none;
 }
 .container{
-     max-width: 1128px;
+        max-width: 1128px;
      padding: 0 15px; 
      margin: 0 auto;
     outline: 2px solid red;
       }
 
 /* ==========HEADER========== */
+.container-header{
+    display: flex;
+    border-bottom: 1px solid var(--cornflower);
+    align-items: center;
+    width: 1158px;
+}
+.page-header{
+   
+    
+    
+}
+.page-navigation{
+    display: flex;
+    align-items: center; 
+}
 .logo{
+ margin-right: 76px;
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -55,22 +72,22 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--iris);
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-/* padding: 0px; */
-position: absolute;
-width: 115px;
-/* padding-left: 156px; */
-padding-top: 24px;
-margin-right: 76px;
 }
 .logo-naim{
     color:var(--navy-blue);
 }
+.menu{
+  display: flex;
+  margin-right: 332px;
+}
+.menu-item:not(:last-child){
+    margin-right: 40px;
+}
 
+.list:not(:last-child){
+    margin-right: 40px;
+}
 .menu-link{
-    display: block;
  font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -85,7 +102,7 @@ color: var(--navy-blue);
     font-style: normal; 
 } 
 .contact-link{
-font-family: inherit;
+ display: flex;
 font-style: normal; 
 font-weight: 400;
 font-size: 16px;
@@ -97,6 +114,7 @@ color: var(--slate);
 .contact-link:focus{
     color:var(--ocean);
 }
+
 /* ==========/HEADER========== */
 
 /* ==========HERO========== */
@@ -114,6 +132,7 @@ height: 120px;
 letter-spacing: 0.02em;
  color:var(--white); 
 }
+
 .btn{
 font-family: inherit;
 font-weight: 500;
