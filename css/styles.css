@@ -53,6 +53,7 @@ body{
     display: flex;
   align-items: center;
    width: 1158px;
+
  
    
     
@@ -85,6 +86,7 @@ color: var(--iris);
   display: flex;
   align-items: center;
   margin-right: 300px;
+   padding: 24px 0;
 }
 .menu-item:not(:last-child){
     margin-right: 40px;
@@ -110,7 +112,7 @@ color: var(--navy-blue);
 .contact-link{
  display: flex;
  align-items: center;
- 
+ padding: 24px 0;
 /* font-style: normal; 
 font-weight: 400; */
 font-size: 16px;
