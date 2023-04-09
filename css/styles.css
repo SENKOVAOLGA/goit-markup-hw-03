@@ -52,7 +52,7 @@ body{
 .container-header{
     display: flex;
   align-items: center;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 
  
    
@@ -60,14 +60,14 @@ body{
 }
 .page-header{
    border-bottom: 1px solid var(--cornflower);
-   padding: 24px 0;
+   /* padding: 24px 0; */
     
 }
 .page-navigation{
     display: flex;
     align-items: center; 
-    padding-top: 24px; 
-    padding-bottom: 24px;
+    /* padding-top: 24px; 
+    padding-bottom: 24px; */
 }
 .logo{
     margin-right: 76px;
@@ -129,6 +129,9 @@ color: var(--slate);
 /* ==========/HEADER========== */
 
 /* ==========HERO========== */
+.container-hero{
+    padding: 188px 0 
+}
 .hero{
     background-color:var(--navy-blue);
 }
@@ -142,9 +145,16 @@ width: 496px;
 height: 120px;
 letter-spacing: 0.02em;
  color:var(--white); 
+ max-width: 496px;
+ margin-bottom: 48px;
+ /* padding-left: 472px; */
 }
 
 .btn{
+display: block;
+min-width: 169px;
+height: 56px;
+border: none; 
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
