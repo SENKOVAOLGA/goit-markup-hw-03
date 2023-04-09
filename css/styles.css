@@ -128,10 +128,10 @@ color: var(--slate);
 /* ==========HERO========== */
 .container-hero{
     display: flex;
-    padding: 188px 0;
     justify-content: center;
 }
 .hero{
+    padding: 188px 0;
     background-color:var(--navy-blue);
 }
 .hero-title{
@@ -139,17 +139,17 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
-/* position: absolute; */
 letter-spacing: 0.02em;
  color:var(--white); 
  max-width: 496px;
  margin-bottom: 48px;
- /* padding-left: 472px; */
-  /* justify-content: center; */
+ 
 }
 
 .btn{
 display: block;
+position: absolute;
+text-align: center;
  /* justify-content: center; */
 min-width: 169px;
 height: 56px;
@@ -173,6 +173,9 @@ cursor: pointer;
 /* ==========/HERO========== */
 /* ==========HANG========== */
 .container-description{
+display: flex;
+}
+.description{
 padding: 120px 0 ;
 }
 .description-list{
@@ -205,7 +208,10 @@ color: var(--slate);
 
 /* ==========What are we doing========== */
 .container-work{
-    padding-bottom: 120px; 
+   display: flex; 
+}
+.work{
+padding-bottom: 120px; 
 }
 .list-work{
     display: flex;
@@ -226,7 +232,7 @@ flex-basis: calc((100% - 48px) / 3);
 
 /* ==========TEAM========== */
 .container-team{
-    padding: 120px 0;
+  display: flex;
 }
 .list-people{
     display: flex;
@@ -251,6 +257,7 @@ margin-bottom: 72px;
 }
 .team{ 
  background-color:var(--cloud);
+ padding: 120px 0;
 }
 .team-list{
   background-color:var(--cloud); }
@@ -260,6 +267,7 @@ margin-bottom: 72px;
 /* ==========FOOTER========== */
 .footer-stile{
 background:var(--navy-blue);
+padding: 100px 0;
 }
 .logo-footer{
     color:var(--cloud);
@@ -274,7 +282,9 @@ color:  var(--cloud);
 }
 /* ==========FOOTER========== */
 .container-footer{
-    padding: 100px 0 ;
+    /* display: flex; */
+    display: inline-block;
+    /* margin-bottom: 16px; */
 }
 .text-footer{
     margin-top: 16px;
@@ -316,7 +326,7 @@ border: 1px solid var(--cornflower);
   overflow: hidden;
 }
 /* **************PORTFOLIO ***********/
-.container-portfolio{
+.portfolio{
     padding: 96px 0 120px;
 }
 .portfolio-list{
