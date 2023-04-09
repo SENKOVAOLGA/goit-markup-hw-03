@@ -50,15 +50,17 @@ body{
 /* ==========HEADER========== */
 .container-header{
     display: flex;
-    width: 1158px; 
-    padding-top: 24px; 
-    padding-bottom: 24px; 
+  align-items: center;
+  padding: 0 15px 0 15px;
+  width: 1158px;
+  padding-top: 24px; 
+   padding-bottom: 24px;
    
     
 }
 .page-header{
    border-bottom: 1px solid var(--cornflower);
-  
+   
     
 }
 .page-navigation{
@@ -81,7 +83,7 @@ color: var(--iris);
 }
 .menu{
   display: flex;
-  margin-right: 332px;
+  margin-right: 300px;
 }
 .menu-item:not(:last-child){
     margin-right: 40px;
