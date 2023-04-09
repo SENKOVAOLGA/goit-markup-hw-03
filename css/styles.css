@@ -52,7 +52,7 @@ body{
 .container-header{
   display: flex;
   align-items: center;
-  /* padding: 24px 0;  */
+  padding: 24px 0; 
   justify-content: space-between;
 }
 .page-header{
@@ -75,7 +75,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--iris);
-padding: 24px 0;
+/* padding: 24px 0; */
 }
 .logo-naim{
     color:var(--navy-blue);
@@ -84,7 +84,7 @@ padding: 24px 0;
   display: flex;
   align-items: center;
   /* margin-right: 300px; */
-   padding: 24px 0;
+   /* padding: 24px 0; */
 }
 .menu-item:not(:last-child){
     margin-right: 40px;
@@ -108,7 +108,7 @@ color: var(--navy-blue);
 .contact-link{
  display: flex;
  align-items: center;
- padding: 24px 0;
+ /* padding: 24px 0; */
 /* font-style: normal; 
 font-weight: 400; */
 font-size: 16px;
