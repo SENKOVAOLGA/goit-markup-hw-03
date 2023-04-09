@@ -52,12 +52,12 @@ body{
 .container-header{
   display: flex;
   align-items: center;
-  padding: 24px 0; 
+  /* padding: 24px 0;  */
   justify-content: space-between;
 }
 .page-header{
    border-bottom: 1px solid var(--cornflower);
-   /* padding: 24px 0; */
+   padding: 24px 0;
     
 }
 .page-navigation{
