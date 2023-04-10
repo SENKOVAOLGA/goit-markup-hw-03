@@ -236,7 +236,7 @@ flex-basis: calc((100% - 48px) / 3);
 
 /* ========== 4 секція TEAM========== */
 .container-team{
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
 }
 .card-content{
      padding-top: 32px; 
