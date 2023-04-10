@@ -310,7 +310,7 @@ color:  var(--cloud);
     /* margin-bottom: 16px;  */
 }
 .scrolls{
-font-family: inherit;
+
  font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -328,12 +328,11 @@ border: 1px solid var(--cornflower);
  border-radius: 4px;
  }
 .scrolls:hover,
-.scrolls:focus,
-.scrolls:active{
+.scrolls:focus{
+
     color: var(--white);
     background-color:var(--ocean);
     border: 1px solid transparent;
-   
 }
 /* Скрываем название */
 .visually-hidden {
