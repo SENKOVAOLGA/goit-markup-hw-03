@@ -362,7 +362,8 @@ border: 1px solid var(--cornflower);
 /* .menu-item{
     width: calc((100% - 48px) / 3);
 } */
-.address-links{
+.address-links,
+.nav{
     display: flex;
   align-items: center;
   gap: 40px;
