@@ -332,7 +332,7 @@ border: 1px solid var(--cornflower);
 .scrolls:active{
     color: var(--white);
     background-color:var(--ocean);
-    border: 1px solid transparen;
+    border: 1px solid transparent;
    
 }
 /* Скрываем название */
