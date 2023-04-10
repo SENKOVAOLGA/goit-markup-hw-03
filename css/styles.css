@@ -361,3 +361,6 @@ border: 1px solid var(--cornflower);
     column-gap: 24px;
     row-gap: 48px;
 }
+.menu-item{
+    width: calc((100% - 48px) / 3);
+}
