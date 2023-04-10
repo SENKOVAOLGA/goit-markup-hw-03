@@ -129,7 +129,7 @@ color: var(--slate);
 
 /* ==========HERO========== */
 .container-hero{
-    display: flex;
+ 
     justify-content: center;
 }
 .hero{
@@ -197,6 +197,7 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 background-color: var(--white);
 margin-bottom: 8px;
+text-align: center;
 }
 .text{
 font-weight: 400;
@@ -204,13 +205,14 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
+text-align: center;
 
 }
 /* ==========/HANG========== */
 
 /* ==========What are we doing========== */
 .container-work{
-   display: flex; 
+ 
 }
 .work{
 padding-bottom: 120px; 
@@ -234,7 +236,13 @@ flex-basis: calc((100% - 48px) / 3);
 
 /* ==========TEAM========== */
 .container-team{
-  display: flex;
+  border-radius: 0px 0px 4px 4px;
+}
+.card-content{
+     padding-top: 32px; 
+     padding-bottom: 32px; 
+     padding-left: 16px; 
+     padding-right: 16px;
 }
 .list-people{
     display: flex;
