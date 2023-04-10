@@ -221,7 +221,6 @@ padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    flex-basis: calc((100% - 48px) / 3);
 
 }
 .list-work:not(:last-child){
@@ -229,7 +228,7 @@ padding-bottom: 120px;
 }
 
 .title-work{
-
+flex-basis: calc((100% - 48px) / 3);
 }
 
 
@@ -244,7 +243,6 @@ padding-bottom: 120px;
      padding-bottom: 32px; 
      padding-left: 16px; 
      padding-right: 16px;
-     background-color: #31D0AA;
 }
 .list-people{
     display: flex;
@@ -283,10 +281,16 @@ background:var(--navy-blue);
 padding: 100px 0;
 }
 .logo-footer{
-    color:var(--cloud);
-   
-}
+    color:var(--cloud);}
+
+   .footers
+   {display: inline-block;
+    margin-bottom: 16px;
+background-color:wheat ; }  
+
 .text-footer{
+    /* margin-top: 16px; */
+    background-color: #31D0AA;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -297,10 +301,10 @@ color:  var(--cloud);
 .container-footer{
     /* display: flex; */
     display: inline-block;
-    /* margin-bottom: 16px; */
+  
 }
 .text-footer{
-    margin-top: 16px;
+    /* margin-bottom: 16px;  */
 }
 .scrolls{
 font-family: inherit;
