@@ -349,7 +349,7 @@ border: 1px solid var(--cornflower);
 .portfolio{
     padding: 96px 0 120px;
 }
-.portfolio-list{
+.desc{
     justify-content: center;
     margin-bottom: 72px;
     gap: 24px;
